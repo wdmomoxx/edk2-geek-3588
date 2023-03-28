@@ -27,13 +27,13 @@ sudo apt install git gcc g++ build-essential gcc-aarch64-linux-gnu iasl python3-
 
 Clone the repository:
 ```bash
-git clone https://github.com/edk2-porting/edk2-rk35xx.git --recursive
-cd edk2-rk35xx
+git clone https://github.com/wdmomoxx/edk2-geek-3588.git --recursive
+cd edk2-geek-3588
 ```
 
-Build UEFI (ROCK 5B for example):
+Build for StationPC Geek-3588
 ```bash
-./build.sh -d rock-5b
+./build.sh -d geek-3588
 ```
 
 ## TODO
