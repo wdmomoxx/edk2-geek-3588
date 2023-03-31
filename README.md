@@ -36,6 +36,11 @@ Build for StationPC Geek-3588
 ./build.sh -d geek-3588
 ```
 
+Build for StationM3
+```bash
+./build.sh -d station-m3
+```
+
 ## TODO
  - Create gpt image in build process instead of using the prebuilt one
  - Fix resetting to maskrom
