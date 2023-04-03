@@ -191,6 +191,9 @@ UsbPortPowerEnable (void)
   GpioPinWrite (4, GPIO_PIN_PB0, TRUE);
   GpioPinSetDirection (4, GPIO_PIN_PB0, GPIO_PIN_OUTPUT);
 
+  GpioPinWrite (1, GPIO_PIN_PB1, TRUE);
+  GpioPinSetDirection (1, GPIO_PIN_PB1, GPIO_PIN_OUTPUT);
+  
   // DEBUG((EFI_D_WARN, "Trying to enable green led\n"));
   // GpioPinWrite (1, GPIO_PIN_PA2, TRUE);
   // GpioPinSetDirection (1, GPIO_PIN_PA2, GPIO_PIN_OUTPUT);
