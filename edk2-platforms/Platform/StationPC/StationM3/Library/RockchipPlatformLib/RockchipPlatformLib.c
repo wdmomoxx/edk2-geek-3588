@@ -188,8 +188,8 @@ UsbPortPowerEnable (void)
 {
   DEBUG((EFI_D_WARN, "UsbPortPowerEnable called\n"));
   /* Set GPIO4 PB0 (USB_HOST_PWREN) output high to power USB ports */
-  GpioPinWrite (4, GPIO_PIN_PB0, TRUE);
-  GpioPinSetDirection (4, GPIO_PIN_PB0, GPIO_PIN_OUTPUT);
+  GpioPinWrite (1, GPIO_PIN_PB6, TRUE);
+  GpioPinSetDirection (1, GPIO_PIN_PB6, GPIO_PIN_OUTPUT);
 
   GpioPinWrite (1, GPIO_PIN_PB1, TRUE);
   GpioPinSetDirection (1, GPIO_PIN_PB1, GPIO_PIN_OUTPUT);
